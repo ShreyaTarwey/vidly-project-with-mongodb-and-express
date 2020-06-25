@@ -1,0 +1,4 @@
+# ignore everything in this directory
+node modules
+
+#except this file 
