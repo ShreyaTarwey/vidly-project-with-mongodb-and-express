@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
-  state = {
-    count: this.props.value,
-  };
   render() {
     return (
       <React.Fragment>
@@ -11,25 +8,45 @@ class Counter extends Component {
           style={{ zoom: 1.25, margin: 15 }}
           className={this.handleClassName()}
         >
-          {this.state.count === 0 ? "Zero" : this.state.count}
+          {this.props.counter.value <= 0 ? "Zero" : this.props.counter.value}
         </p>
-        <button onClick={this.handleIncrement} className="btn btn-secondary">
-          Increment
+        <button
+          onClick={() => this.props.onIncrement(this.props.counter)}
+          className="btn btn-secondary "
+        >
+          +
         </button>
+        {this.handleDecrementButton()}
+        <button
+          onClick={() => this.props.onDelete(this.props.counter.id)}
+          className="btn btn-secondary btn-danger m-2"
+        >
+          X
+        </button>
+        <br />
       </React.Fragment>
     );
   }
-  handleIncrement = (count) => {
-    count = this.state.count;
-    count = count + 1;
-    this.setState({
-      count,
-    });
-    console.log(count);
-  };
+
   handleClassName = () => {
-    if (this.state.count === 0) return "badge badge-warning";
-    return "badge badge-primary";
+    if (this.props.counter.value <= 0) return "badge badge-warning col-lg-1";
+    return "badge badge-primary col-lg-1";
+  };
+  handleDecrementButton = () => {
+    if (this.props.counter.value > 0)
+      return (
+        <button
+          onClick={() => this.props.onDecrement(this.props.counter)}
+          className="btn btn-secondary m-2"
+        >
+          -
+        </button>
+      );
+    return (
+      <button className="btn btn-secondary m-2" disabled>
+        -
+      </button>
+    );
   };
 }
 
