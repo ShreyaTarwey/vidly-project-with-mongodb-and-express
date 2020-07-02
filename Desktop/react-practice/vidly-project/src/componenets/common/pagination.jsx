@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 const _ = require("lodash");
 class Pagination extends Component {
   state = {
@@ -39,4 +40,10 @@ class Pagination extends Component {
   }
 }
 
+Pagination.propTypes = {
+  itemsCount: PropTypes.number.isRequired,
+  pageSize: PropTypes.number.isRequired,
+  currentPage: PropTypes.number.isRequired,
+  onPageChange: PropTypes.func.isRequired,
+};
 export default Pagination;

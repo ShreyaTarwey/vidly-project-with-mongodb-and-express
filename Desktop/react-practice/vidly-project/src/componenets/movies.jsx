@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { getMovies } from "../services/fakeMovieService";
 import Like from "./common/likes";
 import Pagination from "./common/pagination";
+import { paginate } from "../utilities/paginate";
 class Movies extends Component {
   state = {
     movies: getMovies(),
@@ -10,9 +11,16 @@ class Movies extends Component {
     currentPage: 1,
   };
   render() {
+    const movie = paginate(
+      this.state.movies,
+      this.state.currentPage,
+      this.state.pageSize
+    );
+    // console.log(movie);
     return (
       <React.Fragment>
         {this.handleMessage()}
+
         <table className="table">
           <thead>
             <tr>
@@ -21,7 +29,7 @@ class Movies extends Component {
             </tr>
           </thead>
           <tbody>
-            {this.state.movies.map((movie) => (
+            {movie.map((movie) => (
               <tr key={movie._id}>
                 <td> {movie.title} </td> <td> {movie.genre.name} </td>
                 <td> {movie.numberInStock} </td>
