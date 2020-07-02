@@ -3,65 +3,78 @@ import { getMovies } from "../services/fakeMovieService";
 import Like from "./common/likes";
 import Pagination from "./common/pagination";
 import { paginate } from "../utilities/paginate";
+import { getGenres } from "../services/fakeGenreService";
+import GenreList from "./genre-list";
 class Movies extends Component {
   state = {
-    movies: getMovies(),
+    movies: [],
+    genres: [],
     count: getMovies().length,
     pageSize: 4,
     currentPage: 1,
   };
+  componentDidMount() {
+    this.setState({ movies: getMovies(), genres: getGenres() });
+  }
   render() {
-    const movie = paginate(
+    const movies = paginate(
       this.state.movies,
       this.state.currentPage,
       this.state.pageSize
     );
-    // console.log(movie);
     return (
-      <React.Fragment>
-        {this.handleMessage()}
-
-        <table className="table">
-          <thead>
-            <tr>
-              <th> Title </th> <th> Genre </th> <th> Stock </th> <th> rate </th>
-              <th> </th> <th> </th>
-            </tr>
-          </thead>
-          <tbody>
-            {movie.map((movie) => (
-              <tr key={movie._id}>
-                <td> {movie.title} </td> <td> {movie.genre.name} </td>
-                <td> {movie.numberInStock} </td>
-                <td> {movie.dailyRentalRate} </td>
-                <td>
-                  <Like
-                    liked={movie.liked}
-                    onClick={() => this.handeLike(movie)}
-                  />
-                </td>
-                <td>
-                  {
-                    <button
-                      key={movie._id}
-                      onClick={() => this.handledeleteButton(movie)}
-                      className="btn btn-danger btn-sm"
-                    >
-                      Delete
-                    </button>
-                  }
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <Pagination
-          itemsCount={this.state.count}
-          pageSize={this.state.pageSize}
-          onPageChange={this.handlePageChange}
-          currentPage={this.state.currentPage}
+      <div style={{ display: "flex" }}>
+        <GenreList
+          items={this.state.genres}
+          onItemSelect={this.handleGenreSelect}
+          currentItem={this.state.currentGenre}
         />
-      </React.Fragment>
+        <div className="m-2 col-lg-8 " style={{ display: "inline-block" }}>
+          {this.handleMessage()}
+
+          <table className="table col-lg-12 ">
+            <thead>
+              <tr>
+                <th> Title </th> <th> Genre </th> <th> Stock </th>{" "}
+                <th> rate </th>
+                <th> </th> <th> </th>
+              </tr>
+            </thead>
+            <tbody>
+              {movies.map((movie) => (
+                <tr key={movie._id}>
+                  <td> {movie.title} </td> <td> {movie.genre.name} </td>
+                  <td> {movie.numberInStock} </td>
+                  <td> {movie.dailyRentalRate} </td>
+                  <td>
+                    <Like
+                      liked={movie.liked}
+                      onClick={() => this.handeLike(movie)}
+                    />
+                  </td>
+                  <td>
+                    {
+                      <button
+                        key={movie._id}
+                        onClick={() => this.handledeleteButton(movie)}
+                        className="btn btn-danger btn-sm"
+                      >
+                        Delete
+                      </button>
+                    }
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <Pagination
+            itemsCount={this.state.count}
+            pageSize={this.state.pageSize}
+            onPageChange={this.handlePageChange}
+            currentPage={this.state.currentPage}
+          />
+        </div>
+      </div>
     );
   }
 
@@ -76,12 +89,7 @@ class Movies extends Component {
   handleMessage = () => {
     if (this.state.count === 0)
       return <p> There are no movies in the database </p>;
-    return (
-      <p>
-        There are {this.state.count}
-        movies in the database
-      </p>
-    );
+    return <p>There are {this.state.count} movies in the database</p>;
   };
   handeLike = (movie) => {
     const movies = [...this.state.movies];
@@ -92,6 +100,11 @@ class Movies extends Component {
   };
   handlePageChange = (page) => {
     this.setState({ currentPage: page });
+  };
+
+  handleGenreSelect = (genre) => {
+    this.setState({ currentGenre: genre.name });
+    console.log(genre.name);
   };
 }
 
