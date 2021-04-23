@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T10:33:38.202Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="RSp_XStqYkP6qehXhiav" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-23T11:18:35.259Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="yYQotw3dcWqmwT0bSnTQ" version="14.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1350" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1350" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -77,22 +77,10 @@
         <mxCell id="7e9xk0XOVjDDOqrkxnwi-53" value="ID&#xa;From&#xa;To&#xa;Duration: Years + Months&#xa;Documents(File)&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="7e9xk0XOVjDDOqrkxnwi-52" vertex="1">
           <mxGeometry y="30" width="210" height="182.5" as="geometry" />
         </mxCell>
-        <mxCell id="7e9xk0XOVjDDOqrkxnwi-57" value="Research Pubs and Papers" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="300" y="80" width="210" height="112.5" as="geometry" />
-        </mxCell>
-        <mxCell id="7e9xk0XOVjDDOqrkxnwi-60" value="Neeche Likha hai&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontFamily=Helvetica;" parent="7e9xk0XOVjDDOqrkxnwi-57" vertex="1">
-          <mxGeometry y="30" width="210" height="82.5" as="geometry" />
-        </mxCell>
-        <mxCell id="7e9xk0XOVjDDOqrkxnwi-62" value="Thesis Details" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="580" y="70" width="210" height="132.5" as="geometry" />
-        </mxCell>
-        <mxCell id="7e9xk0XOVjDDOqrkxnwi-63" value="Neeche Likha hai&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontFamily=Helvetica;" parent="7e9xk0XOVjDDOqrkxnwi-62" vertex="1">
-          <mxGeometry y="30" width="210" height="102.5" as="geometry" />
-        </mxCell>
-        <mxCell id="7e9xk0XOVjDDOqrkxnwi-66" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=15;entryX=0.567;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-66" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=15;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="270" as="sourcePoint" />
-            <mxPoint x="549.0699999999999" y="68.31999999999994" as="targetPoint" />
+            <mxPoint x="549" y="-100" as="targetPoint" />
             <Array as="points">
               <mxPoint x="550" y="190" />
             </Array>
@@ -103,6 +91,36 @@
         </mxCell>
         <mxCell id="kpZnEdqJ38BNeuLe-dKo-3" value="ID&#xa;Membersip &#xa;Responsibilities&#xa;Academic Year Break&#xa;College Punishment &#xa;Judicial Punishment&#xa;Unfit for Position&#xa;Refernces(Name and Address)&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kpZnEdqJ38BNeuLe-dKo-2">
           <mxGeometry y="30" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-4" value="Books" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="-10" width="210" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-5" value="ID&#xa;Title_{index}&#xa;Author_{index}&#xa;Name Of Publisher_{index}&#xa;Date of Publication_{index}&#xa; = yr + mon&#xa;ISBN/ISSN No._{index}&#xa;Document_{index}&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kpZnEdqJ38BNeuLe-dKo-4">
+          <mxGeometry y="30" width="210" height="182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-7" value="Chapters" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="-60" width="210" height="242.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-8" value="ID&#xa;Book Title_{index}&#xa;Chapter Title_{index}&#xa;Author_{index}&#xa;Name Of Publisher_{index}&#xa;Date of Publication_{index}&#xa; = yr + mon&#xa;ISBN/ISSN No._{index}&#xa;Document_{index}&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kpZnEdqJ38BNeuLe-dKo-7">
+          <mxGeometry y="30" width="210" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-10" value="Newspapers Articles" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="-390" width="210" height="292.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-11" value="ID&#xa;Article Title_{index}&#xa;Journal Name_{index}&#xa;Author_{index}&#xa;Date of Publication_{index}&#xa; = yr + mon&#xa;Referred_{index}&#xa;Level_{index}&#xa;NAAS_{index}&#xa;ISBN/ISSN No._{index}&#xa;Document_{index}&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kpZnEdqJ38BNeuLe-dKo-10">
+          <mxGeometry y="30" width="210" height="262.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-17" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" as="sourcePoint" />
+            <mxPoint x="310" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-18" value="Seminar Articles" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="-390" width="210" height="292.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kpZnEdqJ38BNeuLe-dKo-19" value="ID&#xa;Article Title_{index}&#xa;Seminar Subject_{index}&#xa;Location _{index}&#xa;Duration_{index}&#xa;Published_{index}&#xa;Document_{index}&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="kpZnEdqJ38BNeuLe-dKo-18">
+          <mxGeometry y="30" width="210" height="262.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
