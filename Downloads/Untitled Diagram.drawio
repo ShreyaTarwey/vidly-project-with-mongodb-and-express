@@ -1,1 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T05:45:08.519Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" version="14.6.6" etag="NP9flq1B6lO0Ntc9i02K" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-23T06:40:29.584Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Mo887rgzC6WzAmO7YwJ8" version="14.6.6" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1350" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.995;entryY=0.964;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7e9xk0XOVjDDOqrkxnwi-30" target="7e9xk0XOVjDDOqrkxnwi-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7e9xk0XOVjDDOqrkxnwi-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7e9xk0XOVjDDOqrkxnwi-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-30" value="Applicant " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="270" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-31" value="Application Number (as ID)&#xa;Post&#xa;Department&#xa;Research Domain&#xa;Photograph(File)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-30">
+          <mxGeometry y="30" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-32" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=16;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="7e9xk0XOVjDDOqrkxnwi-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="460" as="sourcePoint" />
+            <mxPoint x="250" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-33" value="General" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="530" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-34" value="ID&#xa;Full Name&#xa;Date of Birth&#xa;Father&#39;s Name&#xa;Address_Pern&#xa;Telephone No._Perm&#xa;Address_Mail&#xa;Telephone No._Mail &#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-33">
+          <mxGeometry y="30" width="210" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-36" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="460" as="sourcePoint" />
+            <mxPoint x="414" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-37" value="Contact Details" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="530" width="210" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-38" value="ID&#xa;Mobile No.&#xa;Email Address&#xa;Gender &#xa;Maritial Status &#xa;Nationality&#xa;State&#xa;Category&#xa;Reservation&#xa;Certificate(File)&#xa;Present Employer&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-37">
+          <mxGeometry y="30" width="210" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-40" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=16;entryX=0.088;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="7e9xk0XOVjDDOqrkxnwi-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="460" as="sourcePoint" />
+            <mxPoint x="580" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-41" value="Educational Qualifications" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="540" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-42" value="ID&#xa;Degree_DegreeName&#xa;Name_DegreeName&#xa;Marks_DegreeName&#xa;Subjects_DegreeName&#xa;Year_DegreeName&#xa;Documents(File)_DegreeName&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-41">
+          <mxGeometry y="30" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-44" value="PhD" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="300" width="210" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-45" value="ID&#xa;PhD Awarded&#xa;Title of Thesis&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-44">
+          <mxGeometry y="30" width="210" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7e9xk0XOVjDDOqrkxnwi-31" target="7e9xk0XOVjDDOqrkxnwi-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-48" value="Employment Exp" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="258.75" width="210" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-49" value="ID&#xa;Name_{index}&#xa;Post_{index}&#xa;From_{index}&#xa;To_{index}&#xa;Salary_{index}&#xa;Nature_{index}&#xa;Documents_{index}&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-48">
+          <mxGeometry y="30" width="210" height="182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7e9xk0XOVjDDOqrkxnwi-31" target="7e9xk0XOVjDDOqrkxnwi-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-52" value="Research Exp" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="30" width="210" height="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-53" value="ID&#xa;From&#xa;To&#xa;Duration: Years + Months&#xa;Documents(File)&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-52">
+          <mxGeometry y="30" width="210" height="182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-57" value="Research Pubs and Papers" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="80" width="210" height="112.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-60" value="Neeche Likha hai&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontFamily=Helvetica;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-57">
+          <mxGeometry y="30" width="210" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-62" value="Thesis Details" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="70" width="210" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-63" value="Neeche Likha hai&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontFamily=Helvetica;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-62">
+          <mxGeometry y="30" width="210" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-66" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;fontSize=15;entryX=0.567;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="7e9xk0XOVjDDOqrkxnwi-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-68" value="Other Information" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="-210" width="210" height="272.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-69" value="Neeche Likha hai&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=15;fontFamily=Helvetica;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-68">
+          <mxGeometry y="30" width="210" height="242.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-72" value="Research Pubs and Papers" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="870" width="210" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-73" value="ID&#xa;&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="7e9xk0XOVjDDOqrkxnwi-72">
+          <mxGeometry y="30" width="210" height="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
