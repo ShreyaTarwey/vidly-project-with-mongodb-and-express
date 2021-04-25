@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T16:26:41.305Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="n6hhx2pbq_HR8pX8uLrw" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-25T08:04:12.864Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="_dJ5Gtpe6n7go0FFxeXK" version="14.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1350" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
         <mxCell id="7e9xk0XOVjDDOqrkxnwi-41" value="Educational Qualifications" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="540" width="240" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="7e9xk0XOVjDDOqrkxnwi-42" value="ID&#xa;Degree_DegreeName&#xa;Name_DegreeName&#xa;Marks_DegreeName&#xa;Subjects_DegreeName&#xa;Year_DegreeName&#xa;Documents(File)_DegreeName&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="7e9xk0XOVjDDOqrkxnwi-41" vertex="1">
+        <mxCell id="7e9xk0XOVjDDOqrkxnwi-42" value="ID&#xa;Degree&#xa;Name&#xa;Marks&#xa;Subjects&#xa;Year&#xa;Documents(File)&#xa;Applicant ID (Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="7e9xk0XOVjDDOqrkxnwi-41" vertex="1">
           <mxGeometry y="30" width="240" height="170" as="geometry" />
         </mxCell>
         <mxCell id="7e9xk0XOVjDDOqrkxnwi-44" value="PhD" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=15;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
