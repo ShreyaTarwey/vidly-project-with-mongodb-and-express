@@ -1,90 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T19:18:09.346Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="CpB2LkR5KpsidHVRmYZg" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-27T19:46:02.849Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="gH5dP7uv_VhciyNHfBIM" version="14.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2177" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-0">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-0">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-0" value="Applicant " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-0" value="Applicant " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="280" width="220" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-1" value="Application Number (as ID)&#xa;Post&#xa;Department&#xa;Research Domain&#xa;Photograph(File)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="6I0VVSI5k4A_mjNZAuqt-0">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-1" value="Application Number (as ID)&#xa;Post&#xa;Department&#xa;Research Domain&#xa;Photograph(File)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6I0VVSI5k4A_mjNZAuqt-0" vertex="1">
           <mxGeometry y="30" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-7" value="Thesis" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-7" value="Thesis" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="600" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-8" value="Ongoing Phds&#xa;Comleted Phd&#39;s&#xa;Application Number (as ID)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="6I0VVSI5k4A_mjNZAuqt-7">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-8" value="ID&#xa;Ongoing Phds&#xa;Comleted Phd&#39;s&#xa;Application Id(Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6I0VVSI5k4A_mjNZAuqt-7" vertex="1">
           <mxGeometry y="30" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-12" value="Administrative Details" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-12" value="Administrative Details" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="620" y="280" width="220" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-13" value="Details&#xa;Application Number (as ID)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="6I0VVSI5k4A_mjNZAuqt-12">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-13" value="ID&#xa;Details&#xa;Application Id(Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6I0VVSI5k4A_mjNZAuqt-12" vertex="1">
           <mxGeometry y="30" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-15" value="Sponsored Project" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-15" value="Sponsored Project" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-10" y="280" width="220" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-16" value="Total_Number&#xa;Ongoing &#xa;Completed&#xa;Document(File)&#xa;Application Number (as ID)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="6I0VVSI5k4A_mjNZAuqt-15">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-16" value="ID&#xa;Total_Number&#xa;Ongoing &#xa;Completed&#xa;Document(File)&#xa;Application Id(Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6I0VVSI5k4A_mjNZAuqt-15" vertex="1">
           <mxGeometry y="30" width="220" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-18" value="Experiments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-18" value="Experiments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-20" y="610" width="220" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-19" value="Total_Number&#xa;Ongoing&#xa;Completed&#xa;Document(File)&#xa;Application Number (as ID)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="6I0VVSI5k4A_mjNZAuqt-18">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-19" value="ID&#xa;Total_Number&#xa;Ongoing&#xa;Completed&#xa;Document(File)&#xa;Application Id(Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6I0VVSI5k4A_mjNZAuqt-18" vertex="1">
           <mxGeometry y="30" width="220" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6I0VVSI5k4A_mjNZAuqt-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-21" value="Patent " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-21" value="Patent " style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="630" y="580" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-22" value="Details&#xa;Application Number (as ID)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="6I0VVSI5k4A_mjNZAuqt-21">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-22" value="ID&#xa;Details&#xa;Application Id(Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6I0VVSI5k4A_mjNZAuqt-21" vertex="1">
           <mxGeometry y="30" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-24" value="Membership" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-24" value="Membership" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="607" y="60" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-25" value="Details&#xa;Application Number (as ID)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="6I0VVSI5k4A_mjNZAuqt-24">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-25" value="ID&#xa;Details&#xa;Application Id(Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6I0VVSI5k4A_mjNZAuqt-24" vertex="1">
           <mxGeometry y="30" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-28" value="Summary" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-28" value="Summary" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fontFamily=Helvetica;gradientColor=#ffffff;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="-110" width="220" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="6I0VVSI5k4A_mjNZAuqt-29" value="Defense Date&#xa;Total Exp&#xa;Exp._post_phd&#xa;Total_phd_students&#xa;Ongoing_phd_supervision&#xa;Total Sponsored Projects&#xa;Ongoing Sponsored Projects&#xa;Computational Projects &#xa;SCI/ABDC Journal &#xa;SCI/ABDC Journal Post PHD&#xa;Application Number (as ID)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="6I0VVSI5k4A_mjNZAuqt-28">
+        <mxCell id="6I0VVSI5k4A_mjNZAuqt-29" value="ID&#xa;Defense Date&#xa;Total Exp&#xa;Exp._post_phd&#xa;Total_phd_students&#xa;Ongoing_phd_supervision&#xa;Total Sponsored Projects&#xa;Ongoing Sponsored Projects&#xa;Computational Projects &#xa;SCI/ABDC Journal &#xa;SCI/ABDC Journal Post PHD&#xa;Application Id(Foreign Key)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6I0VVSI5k4A_mjNZAuqt-28" vertex="1">
           <mxGeometry y="30" width="220" height="250" as="geometry" />
         </mxCell>
       </root>
